@@ -106,7 +106,7 @@ case "$COMMAND" in
         update
         ;;
     command)
-        gamecommand $GAMECOMMAND
+        gamecommand "$GAMECOMMAND"
         ;;
     *)
         usage
